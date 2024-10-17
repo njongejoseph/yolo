@@ -165,6 +165,8 @@ To achieve the task the following git workflow was used:
 `docker compose push`
 12. Deployed the containers using docker compose:
 `docker compose up`
+13. Added 2 images to the directory,IP2 ON Docker and Docker Image size.png
+this will show the actual image sizes and that the file have been uploaded to docker
 
 13. Created explanation.md file and modified it as the commit messages in the repo will explain.
 
