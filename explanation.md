@@ -160,7 +160,7 @@ To achieve the task the following git workflow was used:
 9. Pushed the files to github:
 `git push `
 10. Built the client and backend images:
-`docker compose build`
+`docker compose up --build`
 11. Pushed the built imags to docker registry:
 `docker compose push`
 12. Deployed the containers using docker compose:
