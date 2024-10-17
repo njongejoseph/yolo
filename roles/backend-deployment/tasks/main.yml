@@ -14,5 +14,3 @@
       - "5000:5000"
     command: "npm start"
   become: yes
-
-.
