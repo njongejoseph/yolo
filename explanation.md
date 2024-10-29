@@ -145,7 +145,7 @@ This volume, mongodb_data, is designated for storing MongoDB data. It ensures th
 To achieve the task the following git workflow was used:
 
 1. Fork the repository from the original repository.
-2. Clone the repo: `git@github.com:Maubinyaachi/yolo-Microservice.git`
+2. Clone the repo: `https://github.com/Vinge1718/yolo`
 3. Create a .gitignore file to exclude unnecessary     files and directories from version control.
 4. Added Dockerfile for the client to the repo:
 `git add client/Dockerfile`
@@ -169,4 +169,7 @@ To achieve the task the following git workflow was used:
 this will show the actual image sizes and that the file have been uploaded to docker
 
 13. Created explanation.md file and modified it as the commit messages in the repo will explain.
+
+13. Added 3 images to the directory,IP3onGCP.productpersistence.png and vmonGCP to show the added products on the application running on gcp.
+
 
