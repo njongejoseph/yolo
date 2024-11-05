@@ -171,5 +171,6 @@ this will show the actual image sizes and that the file have been uploaded to do
 13. Created explanation.md file and modified it as the commit messages in the repo will explain.
 
 13. Added 3 images to the directory,IP3onGCP.productpersistence.png and vmonGCP to show the added products on the application running on gcp.
+the ip on google cloud IP is 104.198.173.76:3000 for client 
 
 
