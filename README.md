@@ -2,6 +2,31 @@
 This project involved the containerization and deployment of a full-stack yolo application using Docker.
 The project uses ansible and terraform to configure and manage infrastructure on Google Cloud (GCP)
 
+
+# IP4  Orchestration
+
+the project involved kurbenetes on GCP.
+the process involves
+1. Enabling Kurbenetes Engine API- this Builds and manages container-based applications, powered by the open source Kubernetes technology.
+2. downloading and connecting to GCP shell using 'install google-cloud-cli'
+3. Create Clusters after connecting.The clusters are shown below.
+![Alt text](clusters.png)
+4. kubectl appy -f to run the deployments and services in the manifest folder
+      we run as seen in below image 
+![Alt text](kubectlapply.png)
+
+5. Confirmation of services 
+see below image 
+![Alt text](kubectlservices.png)
+![Alt text](podsrunning.png)
+
+6. Accessing the front end.
+![Alt text](websiterunning.png)
+![Alt text](websiteproducts.png)
+
+
+
+
 # Set up steps
 1. create sub-directory named stage_two to hold directories for ansible and terraform
 2. Setup required files, ie main.tf,variables.tf,terraform.tfvars for terraform 
