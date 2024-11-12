@@ -16,12 +16,13 @@ spec:
     spec:
       containers:
       - name: yolo-client
-        image: yolo-app-client:V2.0
+        image: njongejoseph/njonge-yolo-client:v1.0.0
+
         ports:
-        - containerPort: 80
+        - containerPort: 3000
         env:
         - name: BACKEND_URL
-          value: "http://yolo-backend:8000"
+          value: "http://yolo-backend:3000"
         resources:
           requests:
             memory: "256Mi"

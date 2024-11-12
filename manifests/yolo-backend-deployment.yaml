@@ -16,9 +16,9 @@ spec:
     spec:
       containers:
       - name: yolo-backend
-        image: yolo-backend-app:V2.0
+        image: njongejoseph/njonge-yolo-backend:v1.0.0
         ports:
-        - containerPort: 8000
+        - containerPort: 5000
         env:
         - name: MONGO_URL
           value: "mongodb://$(MONGO_USERNAME):$(MONGO_PASSWORD)@mongo:27017"
